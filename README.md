@@ -25,8 +25,8 @@ To run the test, configure `index.js` to make use of your module somehow (e.g. c
 
 ```
 import foo from 'foo';
-const test foo()
-console.log(test)
+const test = foo();
+console.log(test);
 ```
 
 Once this is configured, run the test script
