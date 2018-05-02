@@ -13,11 +13,16 @@ git clone git@github.com:melanieseltzer/test-modules-locally.git && cd test-modu
 Open a new terminal tab and cd to the module's folder that needs to be tested, then run `npm link`. This creates a global symlink.
 
 ```
-cd path/to/module_name
+cd path/to/module_folder
 npm link
 ```
 
-Back in the `test-modules-locally` folder in terminal, run `npm link <module_name>`. This creates a local symlink for testing.
+Cd back to the `test-modules-locally` folder in terminal, run `npm link <module_name>`. This creates a local symlink for testing.
+
+```
+cd test-modules-locally
+npm link <module_name>
+```
 
 ## Usage
 
