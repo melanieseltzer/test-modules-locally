@@ -1,0 +1,24 @@
+{
+  "name": "test-modules-locally",
+  "version": "1.0.0",
+  "description": "Test modules locally before publishing to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel ./index.js -d ./dist && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanieseltzer/test-modules-locally.git"
+  },
+  "keywords": [],
+  "author": "Melanie Seltzer <melleh11@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melanieseltzer/test-modules-locally/issues"
+  },
+  "homepage": "https://github.com/melanieseltzer/test-modules-locally#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
