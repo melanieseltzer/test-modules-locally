@@ -24,6 +24,13 @@ cd test-modules-locally
 npm link <module_name>
 ```
 
+When you're done, remove the symlink.
+
+```
+cd path/to/module_folder
+npm unlink
+```
+
 ## Usage
 
 To run the test, configure `index.js` to make use of your module somehow (e.g. console.log)
